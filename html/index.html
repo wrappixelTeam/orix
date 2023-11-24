@@ -1,0 +1,663 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>orix dashboard</title>
+    <link rel="stylesheet" href="../dist/css/style.min.css">
+</head>
+
+<body>
+    
+
+ <!-- /////////////////////////////
+     ORIX DASHBOARD STARTED 
+/////////////////////////// -->
+  
+<!-- ORIX-HEADER -->
+     
+    <header class="bg-primary py-7 px-4">
+      <div class="container-fluid">
+       <nav class="d-flex justify-content-between">
+
+        <div class="left-block d-flex justify-content-center align-items-center">
+           <!-- Offcanvas trigger link -->
+             <a href="#" class="text-decoration-none text-white d-flex align-items-center gap-21"  data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">              <span class="d-flex">
+              <svg xmlns="http://www.w3.org/2000/svg" class="icon text-white icon-tabler icon-tabler-menu-2" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M4 6l16 0" /><path d="M4 12l16 0" /><path d="M4 18l16 0" /></svg>
+            </span>
+            <span class="align-self-center"><h2 class="fw-bold fs-13 text-white mb-0">Orix</h2></span></a>
+
+            <div class="offcanvas offcanvas-start show" data-bs-scroll="true" tabindex="-1"  id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
+              <div class="offcanvas-body p-0">
+
+                <!--////   SIDEBAR STARTS /////-->
+
+               <!-- offcanvas-body-starts -->
+               <div class="sidebar w-247 px-7 pt-8 border-end border-1">
+                <div class="orix-icon-block d-flex justify-content-center gap-6 mb-13">
+                  <img src="../dist/images/orix-svg.svg" alt="orix-icon" class="img-fluid">
+                  <h1 class="fw-bold fs-13 textclr-delta mb-0 align-self-center">Orix</h1>
+                </div>
+                <!-- USER-INFO BLOCK -->
+                <div class="user-block text-center">
+                   <img src="../dist/images/new-user-profile.jpg" alt="profile-icon" class="img-fluid text-center">
+                   <h2 class="mb-0 textclr-delta fs-11 fw-bold text-center mt-9">Robert Grant</h2>
+                   <p class="mb-0 fs-8 fw-medium textclr-alpha mt-10">Marketing Director</p>
+                </div>
+           
+                <!--/// MENU BLOCK// -->
+                <div class="menu-block mt-8 mt-lg-11 mb-lg-16 mb-11">
+                   <!-- dashboard -->
+                   <div class="dashboard d-flex ms-15  mb-lg-14 mb-9">
+                       <img src="../dist/images/dashborad-icon.svg" alt="dashborad-icon" class="img-fluid me-12">
+                       <a href="#" class="mb-0 textclr-delta fs-6 fw-medium text-decoration-none">Dashboard</a>
+                   </div>
+                  
+                   <!-- Analytics -->
+                   <div class="dashboard d-flex ms-15 mb-lg-14 mb-9">   
+                       <img src="../dist/images/analytics-icon.svg" alt="Analytics-icon" class="img-fluid me-12">
+                       <a href="#" class="mb-0 textclr-alpha fs-6 fw-medium text-decoration-none">Analytics</a>
+                   </div>
+                   <!-- Ecommerce -->
+                   <div class="dashboard d-flex ms-15 mb-lg-14 mb-9">   
+                       <img src="../dist/images/ecommerce icon.svg" alt="dashborad-icon" class="img-fluid me-12">
+                       <a href="#" class="mb-0 textclr-alpha fs-6 fw-medium text-decoration-none">Ecommerce</a>
+                   </div>
+                   <!-- Project -->
+                   <div class="dashboard d-flex ms-15 mb-lg-14 mb-9">  
+                       <img src="../dist/images/project icon.svg" alt="project-icon" class="img-fluid me-12">
+                       <a href="#" class="mb-0 textclr-alpha fs-6 fw-medium text-decoration-none">Project</a>
+                   </div>
+                   <!-- E-Wallet -->
+                   <div class="dashboard d-flex ms-15 mb-lg-14 mb-9">
+                       <img src="../dist/images/wallet-icon.svg" alt="E-Wallet-icon" class="img-fluid me-12">
+                       <a href="#" class="mb-0 textclr-alpha fs-6 fw-medium text-decoration-none">E-Wallet</a>
+                   </div>
+                   <!-- Settings -->
+                   <div class="dashboard d-flex ms-15 mb-lg-14 mb-9">
+                       <img src="../dist/images/setting-icon.svg" alt="E-Wallet-icon" class="img-fluid me-12">
+                       <a href="#" class="mb-0 textclr-alpha fs-6 fw-medium text-decoration-none">Settings</a>
+                   </div>
+                </div>
+                <!-- //// Sidebar Banner ////// -->
+                 <div class="sidebar-banner overflow-hidden">
+                    <div class="row mx-0">
+                       <div class="left-block pt-9 ps-17 col-lg-8">
+                           <h2 class="fs-12 textclr-gama fw-bold mb-3 pe-lg-0 pe-18">Unlimited Access</h2>
+                           <p class="lh-3 fs-7 fw-medium textclr-beta pe-lg-0 pe-32">get access to unlimited reports</p>
+                          </div>
+                          <div class="right-block col-lg-4 position-relative">
+                           <img src="../dist/images/slider-mask-group.png" alt="sidebar-model-icon" class="position-absolute bottom-0 end-0 align-self-center">
+                          </div>
+                    </div>
+                 </div>
+              </div>
+                <!-- offcanvas-body-ends -->
+              </div>
+            </div>
+             <!-- offcanvas end & SIDEBAR ENDS -->
+             
+        </div>
+        <div class="right-block">
+          
+            <!-- Offcanvas trigger link -->
+            <a class="text-decoration-none" href="#" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><p class="text-white mb-0">
+              <span class="fw-semibold fs-5">Recent</span>
+              <span>
+              <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-activity" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M3 12h4l3 8l4 -16l3 8h4" /></svg>
+            </span></p></a>
+
+            <div class="offcanvas recent-activity-canvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+              <div class="offcanvas-body p-0">
+               <!-- offcanvas-body-starts -->
+
+               <!--///// RECENT-ACITVITY-SECTION ////-->
+               <section class="activity-section px-23 pt-8 pb-32 bgclr-gama">
+                <div class="activity-title d-flex justify-content-between mb-9">
+                    <h3 class="fs-12 fw-bold textclr-delta mb-0">Recent Activity</h3>
+                    <div class="dropdown dropstart text-decoration-none">
+                        <a class="dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" >
+                          <img src="../dist/images/threedots-icon.svg" alt="threedots-icon" class="ps-3">
+                        </a>
+
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Action</a></li>
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                      </div>
+                </div>
+                   <!--// todays-activity -->
+                <div class="activity-details d-flex justify-content-start mt-9">
+                 <div class="icon-block d-flex flex-column me-3 align-self-start">
+                    <!-- activity-icons -->
+                     <img src="../dist/images/primary-ring.svg" alt="primary-ring" class="mb-30">
+                     <img src="../dist/images/secondary-ring.svg" alt="secondary-ring" class="mb-33">
+                     <img src="../dist/images/warning-ring.svg" alt="warning-ring">
+                  </div>
+                 <!-- Detailed-activity -->
+                    <div class="activity-info d-flex flex-column gap-28">
+                        <div class="activity-info">
+                            <h3 class="mb-0 textclr-delta fs-9 fw-medium mb-12 mt-25">You sold an item</h3>
+                            <p class="mb-0 textclr-alpha fw-medium fs-7 mb-20 lh-4">Paul Burgess just purchased “Hyper Admin Dashboard”</p>
+                            <p class="mb-0 textclr-xi fs-7 fw-medium">5 minutes ago</p>
+                       </div>
+                       <div class="activity-info">
+                            <h3 class="mb-0 textclr-delta fs-9 fw-medium mb-12">Product on the Market</h3>
+                            <p class="mb-0 textclr-alpha fw-medium fs-7 mb-20 lh-4">Paul Burgess just purchased “Hyper - Admin Dashboard”!</p>
+                            <p class="mb-0 textclr-xi fs-7 fw-medium">5 minutes ago</p>
+                       </div>
+                       <div class="activity-info">
+                            <h3 class="mb-0 textclr-delta fs-9 fw-medium mb-12">Audrey Tobey</h3>
+                            <p class="mb-0 textclr-alpha fw-medium fs-7 mb-20 lh-4">Paul Burgess just purchase.</p>
+                            <p class="mb-0 textclr-xi fs-7 fw-medium">2 minutes ago</p>
+                       </div>
+                    </div>
+                </div>  
+                <!-- // yesterday-activity //-->
+                <h1 class="mb-0 textclr-omega text-uppercase fyesterday fs-7 mt-23">YESTERDAY</h1>  
+                <div class="activity-details d-flex justify-content-start mt-23">
+                    <div class="icon-block d-flex flex-column me-3 align-self-start">
+                       <!-- activity-icons -->
+                        <img src="../dist/images/primary-ring.svg" alt="primary-ring" class="mb-30">
+                        <img src="../dist/images/secondary-ring.svg" alt="secondary-ring" class="mb-31">
+                        <img src="../dist/images/warning-ring.svg" alt="warning-ring">
+                     </div>
+                    <!-- Detailed-activity -->
+                       <div class="activity-info d-flex flex-column gap-28">
+                           <div class="activity-info">
+                               <h3 class="mb-0 textclr-delta fs-9 fw-medium mb-12 mt-25">You sold an item</h3>
+                               <p class="mb-0 textclr-alpha fw-medium fs-7 mb-20 lh-4">Paul Burgess just purchased “Hyper Admin Dashboard”</p>
+                               <p class="mb-0 textclr-xi fs-7 fw-medium">5 minutes ago</p>
+                          </div>
+                          <div class="activity-info">
+                               <h3 class="mb-0 textclr-delta fs-9 fw-medium mb-12">Audrey Tobey</h3>
+                               <p class="mb-0 textclr-alpha fw-medium fs-7 mb-20 lh-4">Paul Burgess just purchase.!</p>
+                               <p class="mb-0 textclr-xi fs-7 fw-medium">2 minutes ago</p>
+                          </div>
+                          <div class="activity-info">
+                               <h3 class="mb-0 textclr-delta fs-9 fw-medium mb-12">Product on the Market</h3>
+                               <p class="mb-0 textclr-alpha fw-medium fs-7 mb-20 lh-4">Paul Burgess just purchased “Hyper - Admin Dashboard”!</p>
+                               <p class="mb-0 textclr-xi fs-7 fw-medium">5 minutes ago</p>
+                          </div>
+                       </div>
+                   </div>
+                <!-- // otherday-activity //--> 
+                <h1 class="mb-0 textclr-omega text-uppercase fyesterday fs-7 mt-23">09/08/2022</h1>  
+                <div class="activity-details d-flex justify-content-start mt-23">
+                    <div class="icon-block d-flex flex-column me-3 align-self-start">
+                       <!-- activity-icons -->
+                        <img src="../dist/images/primary-ring.svg" alt="primary-ring" class="mb-30">
+                        <img src="../dist/images/secondary-ring.svg" alt="secondary-ring">
+                     </div>
+                    <!-- Detailed-activity -->
+                       <div class="activity-info d-flex flex-column gap-28">
+                           <div class="activity-info">
+                               <h3 class="mb-0 textclr-delta fs-9 fw-medium mb-12 mt-25">You sold an item</h3>
+                               <p class="mb-0 textclr-alpha fw-medium fs-7 mb-20 lh-4">Paul Burgess just purchased “Hyper Admin Dashboard”</p>
+                               <p class="mb-0 textclr-xi fs-7 fw-medium">5 minutes ago</p>
+                          </div>
+                          <div class="activity-info">
+                               <h3 class="mb-0 textclr-delta fs-9 fw-medium mb-12">Product on the Market</h3>
+                               <p class="mb-0 textclr-alpha fw-medium fs-7 mb-20 lh-4">Paul Burgess just purchase.!</p>
+                               <p class="mb-0 textclr-xi fs-7 fw-medium">2 minutes ago</p>
+                          </div>
+                       </div>
+                   </div>
+            </section>
+               <!-- offcanvas-body-ends && Recent-Activity ends -->
+              </div>
+            </div>
+
+            <!-- end -->
+        </div>
+       </nav>
+      </div>
+    </header>
+
+
+
+   <!-- ////////// DASHBOARD & REVIEW SECTION ////////////// -->
+
+   <div class="orix">
+    <section class="dashboard  mt-7 ">
+        <div class="container">
+            <div class="row">
+              <div class="col-lg-12">
+
+       <!--// Dashboard Details //-->
+<div class="first-block">
+    <div class="row mx-0 justify-content-between">
+     <div class="col-auto px-0">
+        <h2 class="fw-bold fs-15 textclr-delta mb-0">Dashboard</h2>
+        <p class="textclr-alpha fs-9 fw-medium mt-20 mb-0">Today 09/08/2022</p>
+     </div>
+     <div class="col-auto px-0 d-flex gap-3 align-self-center">
+      <!-- notification -->
+        <div class="dropdown dropdown">
+          <a class="dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" class="text-decoration-none">
+            <div class="notification-icon round-cls-48 bgclr-delta d-flex justify-content-center align-items-center">
+              <img src="../dist/images/notification-icon.svg" alt="notification-icon" class="img-fluid">
+           </div>
+          </a>
+
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </div>
+       <!-- search -->
+        <div class="dropdown dropdown">
+          <a class="dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" class="text-decoration-none">
+            <div class="search-icon round-cls-48 bgclr-alpha d-flex justify-content-center align-items-center">
+              <img src="../dist/images/search-icon.svg" alt="search-icon" class="img-fluid align-self-center">
+           </div>
+          </a>
+
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </div>
+
+     </div>
+    </div>
+  </div>
+  <!--// Customer Order and Revenue //-->
+    <div class="second-block mt-22">
+       <div class="row row-gap-lg-0 row-gap-23">
+            <!-- customer-card -->
+          <div class="col-lg-4 ">
+            <div class="customer-card card-block py-17 px-7 d-flex justify-content-start">
+               <div class="customer-icon round-cls-48 bg-primary d-flex justify-content-center align-items-center ">
+                   <img src="../dist/images/customer-icon.svg" alt="customer-icon" class="img-fluid">
+                </div>
+                <div class="customer-info ms-3 align-self-center">
+                   <p class="mb-0 fs-10 textclr-alpha fw-medium">Customers</p>
+                   <div class="details d-flex gap-20">
+                       <h2 class="mb-0 textclr-delta fw-bold fs-14">36,254</h2>
+                       <div class="micro-details d-flex align-self-end">
+                           <img src="../dist/images/green-up-arrow.svg" alt="up-arrow" class= "align-self-center position-relative top-1">
+                           <span class="text-success fs-9 fw-medium">5.27%</span>
+                       </div>
+                   </div>
+                </div>
+            </div>
+          </div>
+           <!-- orders-card -->
+          <div class="col-lg-4 ">
+            <div class="customer-card card-block py-17 px-7 d-flex justify-content-start">
+               <div class="customer-icon round-cls-48 bg-secondary d-flex justify-content-center align-items-center ">
+                   <img src="../dist/images/orders-icon.svg" alt="orders-icon" class="img-fluid">
+                </div>
+                <div class="customer-info ms-3 align-self-center">
+                   <p class="mb-0 fs-10 textclr-alpha fw-medium">Orders</p>
+                   <div class="details d-flex gap-20">
+                       <h2 class="mb-0 textclr-delta fw-bold fs-14">5,543</h2>
+                       <div class="micro-details d-flex align-self-end">
+                           <img src="../dist/images/warning-down-arrow.svg" alt="up-arrow" class="align-self-center position-relative top-1">
+                           <span class="textclr-eta fs-9 fw-medium">5.27%</span>
+                       </div>
+                   </div>
+                </div>
+            </div>
+          </div>
+          <!-- revenue-card -->
+          <div class="col-lg-4 ">
+           <div class="customer-card card-block py-17 px-7 d-flex justify-content-start">
+              <div class="customer-icon round-cls-48 bg-warning d-flex justify-content-center align-items-center ">
+                  <img src="../dist/images/revenue-icon.svg" alt="revenue-icon" class="img-fluid ">
+               </div>
+               <div class="customer-info ms-3 align-self-center">
+                  <p class="mb-0 fs-10 textclr-alpha fw-medium">Revenue</p>
+                  <div class="details d-flex gap-20">
+                      <h2 class="mb-0 textclr-delta fw-bold fs-14">$6,254</h2>
+                      <div class="micro-details d-flex align-self-end">
+                          <img src="../dist/images/green-up-arrow.svg" alt="up-arrow" class="img-fluid align-self-center position-relative top-1">
+                          <span class="text-success fs-9 fw-medium">7.00%</span>
+                      </div>
+                  </div>
+               </div>
+           </div>
+         </div>
+       </div>
+    </div>
+    <!--// Acitivity and Sales :- Third block //-->
+    <div class="third-block mt-23">
+       <div class="row row-gap-lg-0 row-gap-23">
+           <!--/ Activity-block /-->
+           <div class="col-lg-8 ">
+             <div class="activity card-block pt-7">
+           
+              <div class="first-block justify-content-between px-7 row">
+               <div class="col-lg-auto"><h2 class="textclr-delta col-auto fs-12 fw-bold">Activity</h2></div>
+                   <div class="info d-flex col-lg-auto">
+                       <div class="dashboard-info d-flex gap-6 align-self-center">
+                           <div class="customer-activity d-flex gap-21">
+                               <div class="round-cls-2 bg-primary align-self-center"></div>
+                               <p class="mb-0 fw-medium fs-8 textclr-meta">Customers</p>
+                           </div>
+                           <div class="customer-activity d-flex gap-21">
+                               <div class="round-cls-2 bg-secondary align-self-center"></div>
+                               <p class="mb-0 fw-medium fs-8 textclr-meta">Orders</p>
+                           </div>
+                           <div class="customer-activity d-flex gap-21">
+                               <div class="round-cls-2 bg-warning align-self-center"></div>
+                               <p class="mb-0 fw-medium fs-8 textclr-meta">Revenue</p>
+                           </div>
+                        </div>
+                        <div class="dropdown dropend">
+                            <a class="dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" class="text-decoration-none">
+                              <img src="../dist/images/threedots-icon.svg" alt="threedots-icon" class="px-3">
+                            </a>
+
+                            <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="#">Action</a></li>
+                              <li><a class="dropdown-item" href="#">Another action</a></li>
+                              <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                          </div>
+                   </div>
+              </div>
+             <!-- apex chart -->
+              <div class="activity-chart px-7 pb-10 col-lg-12 mt-9">
+                <div id="chart"></div>
+              </div>
+             </div>
+           </div>
+           <!--/ Sales Block  /-->
+           <div class="col-lg-4 ">
+             <div class="sales-block card-block p-7">
+                <div class="total-sales ">
+                  <div class="sales-info d-flex justify-content-between">
+                     <h2 class="textclr-delta fs-12 fw-bold mb-0">Total Sales</h2>
+                     <div class="dropdown dropend d-flex justify-content-center align-items-center">
+                        <a class="dropdown-toggle d-flex justify-content-center align-items-center" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" class="text-decoration-none">
+                          <img src="../dist/images/threedots-icon.svg" alt="threedots-icon" class="px-10">
+                        </a>
+
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Action</a></li>
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                      </div>
+                  </div>
+                </div>
+                <div id="sales" class="mt-10 d-flex justify-content-center align-items-center"></div>
+                <!-- Direct stream -->
+                <div class="direct-sales d-flex justify-content-between pb-6 mt-21">
+                    <div class="d-flex gap-20 align-self-center">
+                        <div class="round-cls-2 bg-primary align-self-center"></div>
+                        <p class="mb-0 fw-medium fs-11 textclr-alpha">Direct</p>
+                    </div>
+                    <p class="fs-11 textclr-zeta fw-medium mb-0 px-10">$300</p>
+                </div>
+                <!-- Affiliate stream -->
+                <div class="direct-sales d-flex justify-content-between pb-6 ">
+                    <div class="d-flex gap-20 align-self-center">
+                        <div class="round-cls-2 bg-secondary align-self-center"></div>
+                        <p class="mb-0 fw-medium fs-11 textclr-alpha">Affilliate</p>
+                    </div>
+                    <p class="fs-11 textclr-zeta fw-medium mb-0 px-10">$48.96</p>
+                </div>
+                <!-- Sponsored stream -->
+                <div class="direct-sales d-flex justify-content-between ">
+                    <div class="d-flex gap-20 align-self-center">
+                        <div class="round-cls-2 bg-warning align-self-center"></div>
+                        <p class="mb-0 fw-medium fs-11 textclr-alpha">Sponsored</p>
+                    </div>
+                    <p class="fs-11 textclr-zeta fw-medium mb-0 px-10">$135.18</p>
+                </div>
+                <!--  -->
+            </div>
+           </div>
+       </div>
+    </div>
+
+     <!--// Product Selling Section && Location Section ::- Fourth Block //-->
+      <div class="fouth-block mt-23">
+            <div class="row row-gap-lg-0 row-gap-23">
+                <div class="col-lg-8">
+                    <div class="sold-products card-block p-7 pb-0">
+                        <!-- sold product-info -->
+                       <div class="sold-product-info d-flex justify-content-between pe-7">
+                        <h2 class="textclr-delta fw-bold fs-12 mb-0">Top Selling Products</h2>           
+                          <a class="dropdown-toggle text-decoration-none" href="#" role="button" >
+                            <div class="export d-flex gap-20">
+                              <p class="mb-0 textclr-theta fs-9 fw-medium">Export</p>
+                              <img src="../dist/images/download-icon.svg" alt="download-icon">
+                            </div>
+                          </a>
+                       </div>
+                       <!-- product table -->
+                       <div class="product-table mt-14 table-responsive">
+                        <table class="table mb-0">
+                            <thead>
+                                <!-- Apple -->
+                              <tr>
+                                <th scope="col" class="ps-0">
+                                  <div class="apple d-flex gap-3">
+                                    <div class="product-icon d-flex justify-content-center align-items-center">
+                                      <img src="../dist/images/apple-product-icon.svg" alt="apple-icon" class="img-fluid">
+                                    </div>
+                                     <div class="product-icon-info d-flex justify-content-end">
+                                          <div>
+                                            <h4 class="mb-0 textclr-delta fs-11 fw-medium pb-21">Apple Juciy Pie</h4>
+                                            <p class="mb-0 fs-8 textclr-iota fw-medium">07 April 2018</p>
+                                          </div>
+                                     </div>
+                                  </div>
+                                </th>
+                                <th scope="col">
+                                    <div class="quantity d-flex justify-content-start">
+                                          <div>
+                                            <h4 class="textclr-delta mb-0 fw-medium fs-11 pb-21">45</h4>
+                                            <p class="textclr-iota fs-8 mb-0 fw-medium fs-8">Quantity</p>
+                                          </div>
+                                    </div>
+                                </th>
+                                <th scope="col">
+                                    <div class="price d-flex justify-content-end">
+                                        <div>
+                                            <h4 class="textclr-delta mb-0 fw-medium fs-11 pb-21">$79.49</h4>
+                                            <p class="textclr-iota fs-8 mb-0 fw-medium fs-8 ps-17">Price</p>
+                                        </div>
+                                    </div>
+                                </th>
+                                <th scope="col" class="vertical-align-middle">
+                                    <div class="apple-btn d-flex justify-content-end">
+                                        <a class="btn bg-dark-subtle text-dark fs-8 py-21 px-12 fw-medium text-decoration-none rounded-pill">Apple</a>
+                                    </div>
+                                </th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                                <!-- Banana -->
+                              <tr>
+                                <th scope="col" class="ps-0">
+                                    <div class="apple d-flex gap-3">
+                                      <div class="product-icon d-flex justify-content-center align-items-center">
+                                        <img src="../dist/images/banana-icon.svg" alt="banana-icon" class="img-fluid">
+                                      </div>
+                                       <div class="product-icon-info">
+                                          <h4 class="mb-0 textclr-delta fs-11 fw-medium pb-21">Banana Smoothie Pie</h4>
+                                          <p class="mb-0 fs-8 textclr-iota fw-medium">05 Aug 2018</p>
+                                       </div>
+                                    </div>
+                                  </th>
+                                  <th scope="col">
+                                      <div class="quantity d-flex justify-content-start">
+                                           <div class="div">
+                                            <h4 class="textclr-delta mb-0 fw-medium fs-11 pb-21">23</h4>
+                                            <p class="textclr-iota fs-8 mb-0 fw-medium fs-8">Quantity</p>
+                                           </div>
+                                      </div>
+                                  </th>
+                                  <th scope="col ">
+                                      <div class="price d-flex justify-content-end">
+                                            <div>
+                                                <h4 class="textclr-delta mb-0 fw-medium fs-11 pb-21">$35.67</h4>
+                                                <p class="textclr-iota fs-8 mb-0 fw-medium fs-8 ps-17">Price</p>
+                                            </div>
+                                      </div>
+                                  </th>
+                                  <th scope="col" class="align-middle">
+                                        <div class="nike-btn d-flex justify-content-end">
+                                            <a class="btn bg-info-subtle text-info py-21 px-12 fw-medium text-decoration-none rounded-pill fs-8">Nike</a>
+                                        </div>
+                                  </th>
+                              </tr>
+                              <!-- Strawberry -->
+                              <tr>
+                                <th scope="col" class="ps-0">
+                                    <div class="apple d-flex gap-3">
+                                      <div class="product-icon d-flex justify-content-center align-items-center">
+                                        <img src="../dist/images/strawberry-icon.svg" alt="strawberry-icon" class="img-fluid">
+                                      </div>
+                                       <div class="product-icon-info">
+                                          <h4 class="mb-0 textclr-delta fs-11 fw-medium pb-21">Stawberry Milkshake</h4>
+                                          <p class="mb-0 fs-8 textclr-iota fw-medium">12 Dec 2018</p>
+                                       </div>
+                                    </div>
+                                  </th>
+                                  <th scope="col">
+                                      <div class="quantity d-flex justify-content-start">
+                                           <div class="div">
+                                            <h4 class="textclr-delta mb-0 fw-medium fs-11 pb-21">12</h4>
+                                            <p class="textclr-iota fs-8 mb-0 fw-medium fs-8">Quantity</p>
+                                           </div>
+                                      </div>
+                                  </th>
+                                  <th scope="col">
+                                      <div class="price d-flex justify-content-end">
+                                            <div>
+                                                <h4 class="textclr-delta mb-0 fw-medium fs-11 pb-21">$48.30</h4>
+                                                <p class="textclr-iota fs-8 mb-0 fw-medium fs-8 ps-17">Price</p>
+                                            </div>
+                                      </div>
+                                  </th>
+                                  <th scope="col" class="align-middle">
+                                        <div class="apple-btn d-flex justify-content-end">
+                                            <a class="btn bg-success-subtle text-success py-21 px-12 fw-medium text-decoration-none rounded-pill fs-8">Adidass</a>
+                                        </div>
+                                  </th>
+                              </tr>
+                              <!-- Capsicum -->
+                              <tr class="border-bottom-0 border-white">
+                                <th scope="col" class="ps-0">
+                                    <div class="apple d-flex gap-3">
+                                      <div class="product-icon d-flex justify-content-center align-items-center">
+                                        <img src="../dist/images/capsicum-icon.svg" alt="capsicum-icon" class="img-fluid">
+                                      </div>
+                                       <div class="product-icon-info">
+                                          <h4 class="mb-0 textclr-delta fs-11 fw-medium pb-21">Capsicum Spicy Louf</h4>
+                                          <p class="mb-0 fs-8 textclr-iota fw-medium">23 Sep 2018</p>
+                                       </div>
+                                    </div>
+                                  </th>
+                                  <th scope="col">
+                                      <div class="quantity d-flex justify-content-start">
+                                           <div class="div">
+                                            <h4 class="textclr-delta mb-0 fw-medium fs-11 pb-21">09</h4>
+                                            <p class="textclr-iota fs-8 mb-0 fw-medium fs-8">Quantity</p>
+                                           </div>
+                                      </div>
+                                  </th>
+                                  <th scope="col">
+                                      <div class="price d-flex justify-content-end">
+                                            <div>
+                                                <h4 class="textclr-delta mb-0 fw-medium fs-11 pb-21">$56.35</h4>
+                                                <p class="textclr-iota fs-8 mb-0 fw-medium fs-8 ps-17">Price</p>
+                                            </div>
+                                      </div>
+                                  </th>
+                                  <th scope="col" class="align-middle ">
+                                        <div class="apple-btn d-flex justify-content-end">
+                                            <a class="btn bg-warning-subtle textclr-pi py-21 px-12 fw-medium text-decoration-none rounded-pill fs-8">Gucci</a>
+                                        </div>
+                                  </th>
+                              </tr>
+                            </tbody>
+                          </table>
+                       </div>
+                    </div>
+                </div>
+                <!-- //-lOCATION-BLOCK-// -->
+                <div class="col-lg-4">
+                    <div class="location-block card-block p-7">
+                       <div class="title d-flex justify-content-between">
+                        <h2 class="fs-12 fw-bold textclr-delta">Locations</h2>
+                        <div class="dropdown dropend">
+                            <a class="dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" class="text-decoration-none">
+                              <img src="../dist/images/threedots-icon.svg" alt="threedots-icon" class="px-10">
+                            </a>
+
+                            <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="#">Action</a></li>
+                              <li><a class="dropdown-item" href="#">Another action</a></li>
+                              <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                          </div>
+                       </div>
+                       <div class="world-map text-center">
+                        <div id="visitfromworld" style="width: 100%;"></div>
+                       </div>
+                       <!-- Newyork -->
+                     <div class="city-info mt-34 mb-27 pe-10">
+                         <div class="city-detail d-flex justify-content-between mb-12">
+                            <p class="fs-11 textclr-kappa fw-medium mb-0">New York</p>
+                             <p class="textclr-zeta fs-11 fw-medium mb-0">$3k</p>
+                         </div>
+                         <div class="progress" role="progressbar" aria-label="Success example" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-bar newyorkCityBar bg-secondary"></div>
+                          </div>
+                     </div>
+                     <!-- San Fransisco -->
+                     <div class="city-info mb-27 pe-10">
+                        <div class="city-detail d-flex justify-content-between mb-12">
+                           <p class="fs-11 textclr-kappa fw-medium mb-0">San Fransisco</p>
+                            <p class="textclr-zeta fs-11 fw-medium mb-0">$23k</p>
+                        </div>
+                        <div class="progress" role="progressbar" aria-label="Success example" aria-valuenow="35" aria-valuemin="0" aria-valuemax="100">
+                           <div class="progress-bar bg-secondary fransiscoCityBar"></div>
+                         </div>
+                    </div>
+                    <!-- Singapore -->
+                    <div class="city-info pe-10">
+                        <div class="city-detail d-flex justify-content-between mb-12">
+                           <p class="fs-11 textclr-kappa fw-medium mb-0">Singapore</p>
+                            <p class="textclr-zeta fs-11 fw-medium mb-0">$63k</p>
+                        </div>
+                        <div class="progress" role="progressbar" aria-label="Success example" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100">
+                           <div class="progress-bar bg-secondary singaporeCityBar"></div>
+                         </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+      </div>
+ 
+              </div>
+   
+            </div>
+        </div>
+        
+    </section>
+
+
+  </div>
+
+
+    <script src="../dist/libs/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../dist/libs/jquery/dist/jquery.min.js"></script>
+     <script src="../dist/libs/jvectormap/jquery-jvectormap.min.js"></script>
+     <script src="../assets/extra-libs/jvectormap/jquery-jvectormap-world-mill-en.js"></script>
+    <script src="../dist/libs/apexcharts/dist/apexcharts.min.js"></script>
+    <script src="../dist/js/charts.js"></script>
+</body>
+
+</html>

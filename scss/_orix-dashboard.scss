@@ -1,0 +1,130 @@
+
+// sidebar banner
+.sidebar-banner{
+    background-image: url("../../dist/images/sidebar-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 16px;
+}
+// dashboard styles
+.round-cls-48{
+    width: 50px;
+    height: 50px;
+    border-radius: 8px;
+}
+.round-cls-2{
+    width: 6px;
+    height: 6px;
+    border-radius: 2px;
+}
+
+
+.card-block{
+    border-radius: 12px;
+    // border: 1px solid #F4F5F7;
+    background: #FFF;
+    box-shadow: 0px 12px 30px -4px rgba(145, 158, 171, 0.10);
+    border-color: rgb(175, 174, 174);
+}
+
+// product-icon
+.product-icon{
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    background: #F5F4F5;
+}
+.product-btn{
+    border-radius: 14px;
+}
+// Progress-Bar
+.progress{
+  height: 4px;
+}
+.newyorkCityBar{
+ width:20%;
+}
+.fransiscoCityBar{
+ width:35%;
+}
+.singaporeCityBar{
+ width:65%;
+}
+// RECENT-ACTIVITY
+
+.icon-block{
+    position: relative;
+    z-index: 1;
+    &::after{
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 9px;
+        background: #EFE8DF;
+        width: 1px;
+        height: 100%;
+        z-index: -1;
+    }
+}
+// YESTERDAY
+.yesterday{
+    letter-spacing: 1px;
+}
+// dropdown - modification
+.dropend .dropdown-toggle::after { 
+    content: none; 
+}
+.dropstart .dropdown-toggle::before { 
+    content: none; 
+}
+.dropdown-toggle::after{
+    content: none;
+}
+
+// jvector map
+.jvectormap-container{
+    svg{
+        height: 108px;
+        margin-top: 30px;
+    }
+    .jvectormap-zoomin{
+        display: none;
+    }
+    .jvectormap-zoomout{
+        display: none;
+    }
+}
+
+// CUSTOM SCROLL-BAR
+
+.offcanvas-body::-webkit-scrollbar{
+    width: 10px;
+}
+
+.offcanvas-body::-webkit-scrollbar-track{
+    background: transparent;
+}
+.offcanvas-body::-webkit-scrollbar-thumb{
+    background-color: #8662b4;
+    border-radius: 20px;
+    border: transparent;
+}
+
+// RECENT-ACTIVITY-CANVAS
+.recent-activity-canvas{
+    width: 315px !important;
+}
+
+// table-styles
+
+th,td{
+    padding-left: 16px !important;
+    padding-right: 16px !important;
+    text-wrap: nowrap;
+    background: transparent;
+}
+
+// header-styles
+header{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
